@@ -69,7 +69,7 @@ def is_sorted(arr):
             return False
     return True
 
-def antibogo(arr):
+def antibogosort(arr):
     if len(arr) == 1:
         return "bro fuck you"
     while True:
@@ -77,5 +77,21 @@ def antibogo(arr):
         if not is_sorted(arr):
             return arr
 
+# Miracle Sort. "He said "Somehow, Someway it's gonna get ..."" (C) Rod Stewart. O(∞)
+def miracle_sort(arr):
+    while True:
+        sleep(1)
+        if is_sorted(miracle_sort):
+            return arr
 
+
+# Binary sort. Sorts all 0s and 1s in the array. O(n)
+def binary_sort(arr):
+    arr01 = []
+    for i in range(len(arr)):
+        if arr[i] == 1:
+            arr01.append(1)
+        elif arr[i] == 0:
+            arr01.insert(0, 0)
+    return arr01
 
