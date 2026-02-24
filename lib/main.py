@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, shuffle
 from time import sleep
 # Communisort (v1) - everyone gets mean. O(n)
 def communisort(arr):
@@ -57,3 +57,25 @@ def buddhasort(arr):
     print("Almost done! Hold on...")
     sleep(4_234_000)
     return arr
+
+# CPython's Undeniable Notable Tuff Sort but cooler (CUNT but cooler). O(n log(n))
+def cunt(arr):
+    return sorted(arr)
+
+# Anti-bogosort - lowkey like bogosort, but anti.
+def is_sorted(arr):
+    for i in range(len(arr) - 1):
+        if arr[i] > arr[i+1]:
+            return False
+    return True
+
+def antibogo(arr):
+    if len(arr) == 1:
+        return "bro fuck you"
+    while True:
+        shuffle(arr)
+        if not is_sorted(arr):
+            return arr
+
+
+
