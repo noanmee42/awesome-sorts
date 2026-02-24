@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awesome-sorts"
+version = "0.1.0"
+description = "Best algrorithms thst you've dreamed of"
+readme = "README.md"
+authors = [{name = "noanmee42"}]
+dependencies = []
