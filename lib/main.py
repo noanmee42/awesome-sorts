@@ -25,4 +25,18 @@ def nonbinary_search(arr):
     for i in range(len(arr)):
         if arr[i] in nonbinaries:
             return {arr[i]: i}
-    
+
+# LGBTQuickSort - no natural numbers around here. O(n log(n))
+def is_natural(n):
+    if type(n) == int and n > 0:
+        return True
+    return False
+
+def lgbtquicksort(arr):
+    non_natural = [x for x in arr if not is_natural(x)]
+    return sorted(non_natural)
+
+# homofobian sort - only naturals. O(n log(n))
+def homofobian_sort(arr):
+    natural = [x for x in arr if is_natural(x)]
+    return sorted(natural)
