@@ -14,4 +14,8 @@ def communisort_v2(arr):
 def nosort(arr):
     return arr
 
-# 
+# FastestUnifier_ofCommonKeylists (AKA "FUCK") - fastest sorting algorithm of all time.
+# It's so fast u can't access its results. O(-1)
+def fuck(arr):
+    pass
+
