@@ -1,3 +1,5 @@
+from random import randint
+from time import sleep
 # Communisort (v1) - everyone gets mean. O(n)
 def communisort(arr):
     eq = round(sum(arr) / len(arr))
@@ -40,3 +42,18 @@ def lgbtquicksort(arr):
 def homofobian_sort(arr):
     natural = [x for x in arr if is_natural(x)]
     return sorted(natural)
+
+# Jesus sort - everything is wine. he can randomly die tho. Maybe it won't be sorted at all that's not my fault judge him O(n)
+def jesusort(arr):
+    for i in range(len(arr)):
+        if randint(0, 100) == 42:
+            return arr
+        arr[i] = "wine"
+    return arr
+
+# Buddha Sort - yeah you'll definetely get sorted array. Eventually. O(n log n) + 49 days
+def buddhasort(arr):
+    arr = sorted(arr)
+    print("Almost done! Hold on...")
+    sleep(4_234_000)
+    return arr
