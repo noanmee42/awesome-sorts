@@ -79,9 +79,11 @@ def antibogosort(arr):
 
 # Miracle Sort. "He said "Somehow, Someway it's gonna get ..."" (C) Rod Stewart. O(∞)
 def miracle_sort(arr):
+    if len(arr) == 1:
+        return arr
     while True:
         sleep(1)
-        if is_sorted(miracle_sort):
+        if is_sorted(arr):
             return arr
 
 
