@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+awesome_sorts.egg-info/PKG-INFO
+awesome_sorts.egg-info/SOURCES.txt
+awesome_sorts.egg-info/dependency_links.txt
+awesome_sorts.egg-info/top_level.txt
+awesomesorts/__init__.py
+awesomesorts/main.py

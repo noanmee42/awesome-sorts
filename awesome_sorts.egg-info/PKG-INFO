@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: awesome-sorts
+Version: 0.9.0
+Summary: Best algrorithms thst you've dreamed of
+Author: noanmee42
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# awesome-sorts
+because quicksort and binary search highkey suck.
